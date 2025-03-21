@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background: #005566;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header img {
+  width: 150px; /* Ajuste conforme necessário */
+  height: auto;
+}
