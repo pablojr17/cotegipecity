@@ -27,6 +27,7 @@ export class PostDetailComponent implements OnInit {
       'post_id': this.post?.id || 'N/A',
       'post_titulo': this.post?.title || 'Sem título',
       'post_url': window.location.href,
+      'event_ip': 123321123,
       'post_tempo_visualizacao': Math.floor(performance.now() / 1000) + 's'
     });
 
